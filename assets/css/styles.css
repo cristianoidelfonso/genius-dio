@@ -61,3 +61,7 @@ html, body {
   background-color: var(--yellow);
   border-bottom-left-radius: 100%;
 }
+
+.seleted {
+  opacity: .8;
+}
