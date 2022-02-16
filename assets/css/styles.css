@@ -28,12 +28,36 @@ html, body {
 .genius {
   display:  grid;
   grid-template-areas: 
-    'green red'
-    'yellow blue';
+    'verde vermelho'
+    'amarelo azul';
   grid-gap: 10px;
   border: 1px solid var(--white);
   background-color: var(--white);
   border-radius: 100%;
-  height: 94vmin;
-  width: 47%;
+  height: 90vmin;
+  width: 45%;
+}
+
+.blue {
+  grid-area: azul;
+  background-color: var(--blue);
+  border-bottom-right-radius: 100%;
+}
+
+.green {
+  grid-area: verde;
+  background-color: var(--green);
+  border-top-left-radius: 100%;
+}
+
+.red {
+  grid-area: vermelho;
+  background-color: var(--red);
+  border-top-right-radius: 100%;
+}
+
+.yellow {
+  grid-area: amarelo;
+  background-color: var(--yellow);
+  border-bottom-left-radius: 100%;
 }
